@@ -9,7 +9,6 @@ html, body, main{
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 100px;
-  margin-bottom: 30px;
 }
 
 h2, h3, h4, p {
@@ -119,7 +118,7 @@ li video {
   color: white;
   left: 50%;
   margin-left: -325px;
-  top: 400px;
+  top: 250px;
 }
 
 /* End of Header */
@@ -177,12 +176,7 @@ article {
 
 .project-title:hover .overlay {
   opacity: 0;
-}
-
-p {
-  font-size: 21px;
-  line-height: 32px;
-  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .project-info {

@@ -12,7 +12,7 @@ $(document).ready(function(){
 			/////////////////////////////////////////////////////////////////
 			$(".single-project").css("position","absolute");
 			var singleProjectCss = {
-				opacity : "0",
+				opacity : "0", 
 				display : "none",
 			};
 			// console.log(singleProjectCss);
