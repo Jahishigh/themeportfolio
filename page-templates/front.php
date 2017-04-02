@@ -12,6 +12,7 @@ get_header(); ?>
         <div class="title-top">
           <h1><?php bloginfo( 'name' ); ?></h1>
           <h4><?php bloginfo( 'description' ); ?></h4>
+          <!-- <a href="#">Contact</a> -->
         </div> <!-- .layer-->
             <video autoplay loop class="fillWidth">
               <source src="video/Fish-Tank.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.

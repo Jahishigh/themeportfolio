@@ -12,5 +12,5 @@
 		<div class="content-wrapper">
 			<?php the_content(); ?>
 		</div> <!-- .content wrapper -->
-	</div> <!-- .project-info --> 
+	</div> <!-- .project-info -->
 </article> <!-- .single-project -->

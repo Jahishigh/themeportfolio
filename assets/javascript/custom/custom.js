@@ -12,7 +12,7 @@ $(document).ready(function(){
 			/////////////////////////////////////////////////////////////////
 			$(".single-project").css("position","absolute");
 			var singleProjectCss = {
-				opacity : "0", 
+				opacity : "0",
 				display : "none",
 			};
 			// console.log(singleProjectCss);
@@ -38,6 +38,8 @@ $(document).ready(function(){
       $(".menu").css( menuCss );
 			/////////////////////////////////////////////////////////////////
       $("h2").css("margin-top", "450px");
+      $(".overlay").css("height", "0");
+      $("header").css("display", "none");
 			mouse = 1;
 			clicked = 1;
 			scroll = 1;
@@ -67,6 +69,8 @@ $(document).ready(function(){
       $(".project-info").css("opacity", "0").css("height", "0");
       $(".menu").css("background-image", "url(wp-content/themes/portfolio2017/assets/images/menu.png)").css("width", "30px").css("height", "30px");
       $("h2").css("margin-top", "100px");
+      $(".overlay").css("height", "auto");
+      $("header").css("display", "block");
 			mouse = 0;
 			clicked = 0;
 			scroll = 0;
@@ -87,7 +91,7 @@ $(document).ready(function(){
       if(delay) return;
 
       delay = true;
-      setTimeout(function(){delay = false},200)
+      setTimeout(function(){delay = false},200);
 
       var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
 
