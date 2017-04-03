@@ -15,7 +15,7 @@ $(document).ready(function(){
 				opacity : "0",
 				display : "none",
 			};
-			// console.log(singleProjectCss);
+			// console.log(singleProjectCss); 
       $(".single-project").not(this).css( singleProjectCss );
 			/////////////////////////////////////////////////////////////////
 			var thisCss = {
