@@ -17,7 +17,7 @@ get_header(); ?>
           <a href="#loop-start" class="button">Mes travaux</a>
         </div> <!-- .layer-->
             <video autoplay loop class muted="fillWidth">
-              <source src="wp-content/themes/themeportfolio/assets/images/boat.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="wp-content/themes/themeportfolio/assets/images/Let-It-Grow.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
       </li> <!-- head-top -->
     </ul>
