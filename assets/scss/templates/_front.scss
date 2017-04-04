@@ -97,8 +97,8 @@ h4 {
 .head-top {
   width: 100%;
   height: 100vh;
-  // background-color: black;
   overflow: hidden;
+  background: rgba(0,0,0,0.7) !important;
 }
 
 img.logo {
@@ -144,6 +144,7 @@ video {
   background-size: contain;
   object-fit: cover;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .title-top {
@@ -156,6 +157,16 @@ video {
 }
 
 /* End of Header */
+
+.about {
+  width: 100% !important;
+  height: 100vh;
+  background-color: blue;
+  background: url("../images/Montage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
 /* Projects */
 

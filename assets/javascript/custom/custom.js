@@ -40,6 +40,7 @@ $(document).ready(function(){
       $("h2").css("margin-top", "450px");
       $(".overlay").css("height", "0");
       $("header").css("display", "none");
+      $(".about").css("display", "none");
 			mouse = 1;
 			clicked = 1;
 			scroll = 1;
@@ -71,6 +72,7 @@ $(document).ready(function(){
       $("h2").css("margin-top", "100px");
       $(".overlay").css("height", "auto");
       $("header").css("display", "block");
+      $(".about").css("display", "block");
 			mouse = 0;
 			clicked = 0;
 			scroll = 0;

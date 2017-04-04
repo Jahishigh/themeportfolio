@@ -10,7 +10,7 @@ get_header(); ?>
     <ul>
       <li class="head-top">
         <div class="title-top">
-          <img class="logo" src="wp-content/themes/themeportfolio/assets/images/logo.png" alt="Logo" />
+          <img class="logo" src="wp-content/themes/themeportfolio/assets/images/logo.svg" alt="Logo" />
           <h1><?php bloginfo( 'name' ); ?></h1>
           <h4><?php bloginfo( 'description' ); ?></h4>
           <a href="#" class="button contact">Contact</a>
@@ -22,6 +22,8 @@ get_header(); ?>
       </li> <!-- head-top -->
     </ul>
   </header> <!-- scroll-achor -->
+  <div class="about scroll-anchor">
+  </div>
 	<div id="loop-start" class="scroll-anchor">
 		<?php do_action("MyPostAction") ?>
 	</div>
