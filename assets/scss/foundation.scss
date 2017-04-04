@@ -20,6 +20,7 @@
 @import "global/accessibility";
 
 // Third-party libraries
+
 @import 'font-awesome';
 @import 'motion-ui';
 
@@ -90,6 +91,8 @@
 
 // Templates
 @import "templates/front";
+// @import "templates/hover";
+
 // @import "templates/kitchen-sink";
 // @import "templates/page-default";
 // @import "templates/page-sidebar-left";

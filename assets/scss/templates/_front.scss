@@ -20,10 +20,12 @@ h2, h3 {
 }
 
 h2 {
+  position: relative;
   margin-top: 120px;
   text-align: center;
   color: #fff;
   font-size: 60px;
+  z-index: 99;
 }
 
 h3 {
@@ -35,6 +37,10 @@ h4 {
   font-size: 25px;
   font-weight: 300;
   margin-bottom: 100px;
+}
+
+.orangodaze {
+  color: #e57f32;
 }
 
 /* End of Titles */
@@ -98,7 +104,7 @@ h4 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: rgba(0,0,0,0.7) !important;
+  background: rgba(0,0,0,0.6) !important;
 }
 
 img.logo {
@@ -118,6 +124,9 @@ a.button {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  border-radius: 15px;
+  transition-property: background;
+  transition-duration: 0.8s;
 }
 
 a.button.contact {
@@ -126,9 +135,23 @@ a.button.contact {
   margin-right: 50px;
 }
 
-a.button:hover {
-  background-color: #27ae60;
-  color: white;
+// a.button:hover {
+//   background-color: #27ae60;
+//   color: white;
+// }
+
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 video {
@@ -144,7 +167,6 @@ video {
   background-size: contain;
   object-fit: cover;
   z-index: -1;
-  opacity: 0.5;
 }
 
 .title-top {
@@ -161,11 +183,27 @@ video {
 .about {
   width: 100% !important;
   height: 100vh;
+  background: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.h1about {
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 75px;
+  color: black;
+  margin: 0;
+  left: 50%;
+  margin-left: -300px;
+}
+
+.carretext {
   background-color: blue;
-  background: url("../images/Montage.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
 }
 
 /* Projects */
@@ -247,7 +285,31 @@ img {
 
 /* End of Project */
 
+
 .scroll-anchor {
   height: 100%;
   width: 100%;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 640px) {
+
+  .title-top {
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 50%;
+    margin-left: -325px;
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+/* End of Media Queries */

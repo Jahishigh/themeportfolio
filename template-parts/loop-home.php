@@ -3,7 +3,7 @@
 	<div class="scroll-anchor">
 <?php endif; ?>
 <article class="single-project">
-	<div class="project-title" style="background-image : url(<?php the_post_thumbnail_url(); ?>)">
+	<div class="project-title" style="background-image : url(<?php the_post_thumbnail_url();?>);">
 		<h2><?php the_title(); ?></h2>
     <div class="overlay"><div>
     </div>
